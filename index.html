@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="header ">
+        <h1 class="margen-izquierda">DojoWeather</h1>
+        <div class="city-tabs margen-derecha">
+            <button>Burbank</button>
+            <button>Chicago</button>
+            <button>Dallas</button>
+        </div>
+        
+    </div>
+
+
+    <div class="temperature-select margen-derecha margen-izquierda">
+        <span class="city-label">San Jose</span>
+        <div class="temp-select-right">
+            <label for="temperature">show temperature in:</label>
+            <select id="temperature">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="weather-container ">
+        
+        <div class="day-forecast">
+            <h2>Today</h2>
+            <img src="assets/some_rain.png" alt="Weather Icon">
+            <p>some rain</p>
+            <p><span class="max">24</span>° <span class="min">18</span>°</p>
+        </div>
+        <div class="day-forecast">
+            <h2>Tomorrow</h2>
+            <img src="assets/some_sun.png" alt="Weather Icon">
+            <p>some sun</p>
+            <p><span class="max">27</span>° <span class="min">19</span>°</p>
+        </div>
+        <div class="day-forecast">
+            <h2>Friday</h2>
+            <img src="assets/some_clouds.png" alt="Weather Icon">
+            <p>some clouds</p>
+            <p><span class="max">21</span>° <span class="min">16</span>°</p>
+        </div>
+        <div class="day-forecast">
+            <h2>Saturday</h2>
+            <img src="assets/some_sun.png" alt="Weather Icon">
+            <p>some sun</p>
+            <p><span class="max">26</span>° <span class="min">21</span>°</p>
+        </div>
+    </div>
+
+    <div class="cookie-banner">
+        <img src="assets/cookie.png" alt="Cookie Icon">
+        <div class="cookie-text">
+            <p>Stop! Cookie time</p>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button>I Accept</button>
+    </div>
+
+    <script src="js/scrpit.js"></script>
+    
+</body>
+</html>
